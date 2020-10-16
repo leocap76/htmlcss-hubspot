@@ -8,16 +8,16 @@ body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0;
   padding: 0;
-  background: grey;
 }
 
 .container{
   width: 100%;
-  height: 100vh;
 }
 
 header{
-  height: 100px;
+  position: fixed;
+  top: 0; left: 0;
+  height: 120px;
   width: 100%;
   background: white;
 }
@@ -55,14 +55,81 @@ header{
 
 .header-bottom{
   width: 100%;
-  height: auto;
+  height: 120px;
   padding-left: 40px;
   margin-bottom: 0;
+  padding-top: 20px;
+  float: left;
 }
-.header-bottom img{
-  left: 0;
-  bottom: 0;
+.header-logo{
+  float: left;
 }
 .list-center{
-  pos
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  margin-left: 175px;
+  padding: 5px;
+}
+.list-center ul li{
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.search-bottom{
+  float: right;
+  background-color: rgb(249, 113, 82);
+  margin-right: 30px;
+  padding: 8px;
+  border-radius:5px;
+}
+.search-bottom a{
+  color: white;
+  text-decoration: none;
+}
+.search-bottom:hover{
+  background-color: rgb(255, 188, 172);
+}
+main{
+background-color: lightblue;
+width: 100%;
+height: 5000px;
+}
+#banner-spot{
+  width: 100%;
+  height:220px;
+  background-color: rgb(66, 91, 118);
+  padding-top: 150px;
+  font-size: 15px;
+}
+#banner-spot span{
+  color:white;
+  width: 50%;
+  padding-left: 20px;
+  text-align: center;
+  float: left;
+}
+#banner-spot span a{
+  background-color: white;
+  border-radius: 5px;
+  padding:10px;
+  text-decoration: none;
+}
+
+#main-top{
+  height: 695px;
+  background-image: url(../img/jumbotron.png);
+}
+.main-top-text{
+
+}
+footer{
+  background-color: rgb(66, 91, 118);
+  height: 400px;
+  width: 100%;
+
 }
