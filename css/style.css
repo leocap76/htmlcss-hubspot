@@ -16,6 +16,7 @@ body{
 
 header{
   position: fixed;
+  z-index: 20;
   top: 0; left: 0;
   height: 120px;
   width: 100%;
@@ -95,9 +96,9 @@ header{
   background-color: rgb(255, 188, 172);
 }
 main{
-background-color: lightblue;
+background-color: rgb(240, 244, 248);
 width: 100%;
-height: 5000px;
+height: 3500px;
 }
 #banner-spot{
   width: 100%;
@@ -125,11 +126,236 @@ height: 5000px;
   background-image: url(../img/jumbotron.png);
 }
 .main-top-text{
+left: 40px;
+top: 40px;
+width: 40%;
+height: 100px;
+}
+.main-top-text h1{
+  padding: 40px;
+}
+.main-top-text span p{
+  padding: 40px;
+}
 
+#main-center{
+  width: 70%;
+  height: 400px;
+  margin-left: 15%;
+}
+
+#main-center-intro{
+  text-align: center;
+}
+#main-center-intro img{
+  width: 20%;
+  height: 20%;
+  padding:20px;
+}
+#main-center-intro h2{
+  padding-bottom: 20px;
+}
+#main-center-intro p{
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+#main-first-box{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  position: relative;
+  box-shadow:  1px  1px 5px #dedede,
+              -1px -1px 5px #dedede,
+               1px -1px 5px #dedede,
+              -1px  1px 5px #dedede;
+}
+.main-first-box-left{
+  width: 33.33%;
+  height: 100%;
+  margin: 20px;
+  float: left;
+}
+.main-first-box-left img{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+}
+.main-first-box-left a{
+padding: 20px;
+margin-left: 30px;
+}
+.learn-more-bottom{
+  background-color: rgb(249, 113, 82);
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+.main-first-box-left a{
+  left: 30px;
+  bottom: 60px;
+}
+.learn-more-bottom:hover{
+  background-color: rgb(255, 188, 172);
+}
+
+#main-first-box-right{
+  width: 66.66%;
+  height: 100%;
+  float: right;
+  margin: 20px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+#main-first-box-right p{
+  margin-top: 40px;
+}
+#main-first-box-right ul li{
+  decoration: none;
+  display: inline-block;
+}
+#main-first-box-right ul li a{
+  color: black;
+}
+#main-first-box-right ul li a i{
+  padding: 20px;
+}
+h4{
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+h4::after{
+  border-top: 1px solid black;
+}
+.fa-check-circle{
+  color: rgb(249, 113, 82);
+}
+
+.columns{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+#first-column{
+  width: 30%;
+  height: 600px;
+  margin: 20px 20px 20px 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  float: left;
+  left: 0;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  box-shadow:  1px  1px 5px #dedede,
+              -1px -1px 5px #dedede,
+               1px -1px 5px #dedede,
+              -1px  1px 5px #dedede;
+}
+#first-column img{
+  width: 40%;
+  padding: 20px;
+}
+#first-column hr{
+  margin: 0px 20px 0px 20px;
+}
+#first-column h3,p,h4{
+  padding: 20px;
+}
+#first-column ul li a{
+  decoration: none;
+  color: black;
+  margin: 20px;
+}
+#first-column span{
+  margin-right: 80px;
+  padding-top: 50px;
+}
+#second-column{
+  width: 30%;
+  height: 600px;
+  margin: 20px 20px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  position: absolute;
+  left: 33.33%;
+    text-align: center;
+  box-shadow:  1px  1px 5px #dedede,
+              -1px -1px 5px #dedede,
+               1px -1px 5px #dedede,
+              -1px  1px 5px #dedede;
+}
+#second-column img{
+  width: 50%;
+  padding: 20px;
+}
+#second-column hr{
+  margin: 0px 20px 0px 20px;
+}
+#second-column h3,p,h4{
+  padding: 20px;
+}
+#second-column ul li a{
+  decoration: none;
+  color: black;
+  margin: 20px;
+}
+#second-column span{
+  margin-right: 80px;
+}
+#third-column{
+  width: 30%;
+  height: 600px;
+  margin: 20px 0px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+    text-align: center;
+  box-shadow:  1px  1px 5px #dedede,
+              -1px -1px 5px #dedede,
+               1px -1px 5px #dedede,
+              -1px  1px 5px #dedede;
+}
+#third-column img{
+  width: 40%;
+  padding: 20px;
+}
+#third-column hr{
+  margin: 0px 20px 0px 20px;
+}
+#third-column h3,p,h4{
+  padding: 20px;
+}
+#third-column ul li a{
+  decoration: none;
+  color: black;
+  margin: 20px;
+}
+#third-column span{
+  margin-right: 80px;
+  padding-top: 50px;
+  bottom: 0;
+}
+
+#blue-box{
+  width: 100%;
+  height: 500px;
+  background: rgb(1, 180, 173);
+  margin-top: 1000px;
+}
+.tab-blue-box{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 footer{
-  background-color: rgb(66, 91, 118);
   height: 400px;
   width: 100%;
-
+  background-color: rgb(66, 91, 118);
 }
